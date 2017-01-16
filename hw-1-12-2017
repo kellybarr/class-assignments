@@ -1,4 +1,11 @@
 absolute vs relative paths answer:  5, cd ~
 Oops, didn't realize there were multiple answers for this question.
 Answers:  5, 7, 8, 9
+---------------------------------
+ls ../backup will produce:  original pnas_final pnas_sub
+---------------------------------
+
+
+
+
 
