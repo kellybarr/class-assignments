@@ -7,6 +7,8 @@ ls ../backup will produce:  original pnas_final pnas_sub
 4
 ---------------------------------
 -l adds details; -h makes things more readable apparently
+---------------------------------
+lists by alpha and time of last change
 
 
 
