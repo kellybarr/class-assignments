@@ -199,3 +199,43 @@ ls: cannot access '/home/eeb177-student/Desktop/eeb274/CSB/unix/sandbox/toremove
   173  git push
   174  git status
   175  history>>classwork-R-1-19-17
+  145  git add classwork-R-1-19-17
+  146  git commit -m "today's file"
+  147  git push
+  148  cd
+  149  cd Desktop/eeb274
+  150  ls
+  151  cd CSB
+  152  ls
+  153  cd unix
+  154  ls
+  155  cd data
+  156  ls
+  157  wc -l Marra2014_data.fasta
+  158  touch ~/Desktop/eeb274/CSB/unix/sandbox/toremove.txt
+  159  ls ~/Desktop/eeb274/CSB/unix/sandbox/
+  160  man wc
+  161  rm ~/Desktop/eeb274/CSB/unix/sandbox/toremove.txt
+  162  ls ~/Desktop/eeb274/CSB/unix/sandbox/toremove.txt
+  163  cd ~/Destktop/eeb274/class-assignments/class-assignments
+  164  cd ~/Destktop/eeb274/class-assignments/
+  165  cd ~/Desktop/eeb274/class-assignments/
+  166  cd class-assignments
+  167  ls
+  168  gedit classwork-R-1-19-17
+  169  ls
+  170  git add classwork-R-1-19-17
+  171  git commit -v "adding file with unix manipulation code"
+  172  git commit -m "adding file with unix manipulation code"
+  173  git push
+  174  git status
+  175  history>>classwork-R-1-19-17
+  176  git add classwork-R-1-19-17
+  177  git commit -m "doing the history the unix way"
+  178  history
+  179  history 40 >>classwork-R-19-17
+  180  git add classwork-R-1-19-17
+  181  git commit -m "more overzealous commitment"
+  182  ls
+  183  rm classwork-R-19-17
+  184  history 40 >>classwork-R-1-19-17
