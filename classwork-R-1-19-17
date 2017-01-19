@@ -1,0 +1,26 @@
+eeb177-student@eeb177-VirtualBox:~$ cd Desktop/eeb274
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274$ ls
+class-assignments  CSB  labwork
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274$ cd CSB
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB$ ls
+ggplot2  latex    python  README.md  scientific  unix
+git      LICENSE  r       regex      sql
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB$ cd unix
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix$ ls
+data  installation  sandbox  solutions
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix$ cd data
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ ls
+Buzzard2015_about.txt    Marra2014_about.txt     Saavedra2013
+Buzzard2015_data.csv     Marra2014_data.fasta    Saavedra2013_about.txt
+Gesquiere2011_about.txt  Pacifici2013_about.txt
+Gesquiere2011_data.csv   Pacifici2013_data.csv
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ wc -l Marra2014_data.fasta
+9515 Marra2014_data.fasta
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ touch ~/Desktop/eeb274/CSB/unix/sandbox/toremove.txt
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ ls ~/Desktop/eeb274/CSB/unix/sandbox/
+toremove.txt
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ man wc
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ rm ~/Desktop/eeb274/CSB/unix/sandbox/toremove.txt
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb274/CSB/unix/data$ ls ~/Desktop/eeb274/CSB/unix/sandbox/toremove.txt
+ls: cannot access '/home/eeb177-student/Desktop/eeb274/CSB/unix/sandbox/toremove.txt': No such file or directory
+
