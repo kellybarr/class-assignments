@@ -1,0 +1,15 @@
+---
+title: "classwork feb 28 17"
+output:
+  html_document: default
+---
+
+##loading some data
+
+Load in the csv
+
+```{r cats}
+cats<-read.csv(file = "data/feline-data.csv")
+cats
+str(cats)
+```
