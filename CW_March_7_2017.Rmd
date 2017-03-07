@@ -1,0 +1,51 @@
+---
+title: "Class-March_7_2017"
+author: "Kelly_Barr"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+install.packages("paleobioDB")
+library("paleobioDB", lib.loc="/usr/local/lib/R/site-library")
+data(graptPBDB)
+```
+
+```{r}
+occSpecies<-taxonSortPBDBocc(graptOccPBDB,rank="species")
+plotOccData(occSpecies, groupLabel = "Species")
+```
+
+```{r}
+
+graptTimeSpecies<-occData2timeList(occList = occSpecies)
+taxicDivDisc(graptTimeSpecies)
+```
+```{r}
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
